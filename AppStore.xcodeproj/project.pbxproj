@@ -17,6 +17,7 @@
 		86AC2C4D293DD828000226C8 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC2C4C293DD828000226C8 /* TodayViewController.swift */; };
 		86AC2C51293DDA53000226C8 /* TodayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC2C50293DDA53000226C8 /* TodayCell.swift */; };
 		86AC2C53293DE64C000226C8 /* TodayCollectionViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC2C52293DE64C000226C8 /* TodayCollectionViewHeaderView.swift */; };
+		86AC2C55293F8967000226C8 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC2C54293F8967000226C8 /* AppViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		86AC2C4C293DD828000226C8 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		86AC2C50293DDA53000226C8 /* TodayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCell.swift; sourceTree = "<group>"; };
 		86AC2C52293DE64C000226C8 /* TodayCollectionViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionViewHeaderView.swift; sourceTree = "<group>"; };
+		86AC2C54293F8967000226C8 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				86AC2C36293DCC48000226C8 /* TabBarController.swift */,
+				86AC2C56293F896A000226C8 /* App */,
 				86AC2C4F293DD85C000226C8 /* Today */,
 			);
 			path = Scenes;
@@ -91,6 +94,14 @@
 				86AC2C52293DE64C000226C8 /* TodayCollectionViewHeaderView.swift */,
 			);
 			path = Today;
+			sourceTree = "<group>";
+		};
+		86AC2C56293F896A000226C8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				86AC2C54293F8967000226C8 /* AppViewController.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 				86AC2C51293DDA53000226C8 /* TodayCell.swift in Sources */,
 				86AC2C37293DCC48000226C8 /* TabBarController.swift in Sources */,
 				86AC2C53293DE64C000226C8 /* TodayCollectionViewHeaderView.swift in Sources */,
+				86AC2C55293F8967000226C8 /* AppViewController.swift in Sources */,
 				86AC2C33293DCC48000226C8 /* AppDelegate.swift in Sources */,
 				86AC2C35293DCC48000226C8 /* SceneDelegate.swift in Sources */,
 			);
