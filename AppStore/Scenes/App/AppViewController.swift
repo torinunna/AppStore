@@ -8,5 +8,20 @@ import SnapKit
 import UIKit
 
 final class AppViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        setUpNavigationController()
+    }
 
+}
+
+private extension AppViewController {
+    
+    func setUpNavigationController() {
+        navigationItem.title = "앱"
+        navigationItem.largeTitleDisplayMode = .always
+        navigationController?.navigationBar.prefersLargeTitles = true
+    }
 }
