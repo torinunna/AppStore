@@ -18,6 +18,7 @@
 		86AC2C51293DDA53000226C8 /* TodayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC2C50293DDA53000226C8 /* TodayCell.swift */; };
 		86AC2C53293DE64C000226C8 /* TodayCollectionViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC2C52293DE64C000226C8 /* TodayCollectionViewHeaderView.swift */; };
 		86AC2C55293F8967000226C8 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC2C54293F8967000226C8 /* AppViewController.swift */; };
+		86AC2C5829423163000226C8 /* FeatureSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC2C5729423163000226C8 /* FeatureSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		86AC2C50293DDA53000226C8 /* TodayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCell.swift; sourceTree = "<group>"; };
 		86AC2C52293DE64C000226C8 /* TodayCollectionViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionViewHeaderView.swift; sourceTree = "<group>"; };
 		86AC2C54293F8967000226C8 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		86AC2C5729423163000226C8 /* FeatureSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				86AC2C54293F8967000226C8 /* AppViewController.swift */,
+				86AC2C5729423163000226C8 /* FeatureSectionView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				86AC2C55293F8967000226C8 /* AppViewController.swift in Sources */,
 				86AC2C33293DCC48000226C8 /* AppDelegate.swift in Sources */,
 				86AC2C35293DCC48000226C8 /* SceneDelegate.swift in Sources */,
+				86AC2C5829423163000226C8 /* FeatureSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
