@@ -20,14 +20,16 @@ final class FeatureSectionView: UIView {
         collectionView.backgroundColor = .systemBackground
         collectionView.showsHorizontalScrollIndicator = false
         
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "FeatureSectionCollectionViewCell")
+        collectionView.register(FeatureSectionCell.self, forCellWithReuseIdentifier: "FeatureSectionCell")
         return collectionView
     }()
  
+    private let separatorView = SeparatorView(frame: .zero)
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        setUp()
+        setUpViews()
     }
     
     required init?(coder: NSCoder) {
@@ -41,9 +43,9 @@ extension FeatureSectionView: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FeatureSectionCollectionViewCell", for: indexPath)
-        cell.backgroundColor = .blue
-        return cell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FeatureSectionCell", for: indexPath) as? FeatureSectionCell
+        cell?.setUp()
+        return cell ?? UICollectionViewCell()
     }
 }
 
@@ -62,14 +64,21 @@ extension FeatureSectionView: UICollectionViewDelegateFlowLayout {
 }
 
 private extension FeatureSectionView {
-    func setUp() {
-        [collectionView].forEach { addSubview($0) }
+    func setUpViews() {
+        [collectionView, separatorView].forEach { addSubview($0) }
         
         collectionView.snp.makeConstraints {
             $0.leading.equalToSuperview()
             $0.trailing.equalToSuperview()
             $0.top.equalToSuperview().inset(16.0)
             $0.height.equalTo(snp.width)
+            $0.bottom.equalToSuperview()
+        }
+        
+        separatorView.snp.makeConstraints {
+            $0.leading.equalToSuperview()
+            $0.trailing.equalToSuperview()
+            $0.top.equalTo(collectionView.snp.bottom).offset(16.0)
             $0.bottom.equalToSuperview()
         }
     }

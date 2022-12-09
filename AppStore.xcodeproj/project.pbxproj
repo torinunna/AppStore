@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8639D60729439C6900016388 /* FeatureSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639D60629439C6900016388 /* FeatureSectionCell.swift */; };
+		8639D6092943A01E00016388 /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639D6082943A01E00016388 /* SeparatorView.swift */; };
 		86AC2C33293DCC48000226C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC2C32293DCC48000226C8 /* AppDelegate.swift */; };
 		86AC2C35293DCC48000226C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC2C34293DCC48000226C8 /* SceneDelegate.swift */; };
 		86AC2C37293DCC48000226C8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC2C36293DCC48000226C8 /* TabBarController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8639D60629439C6900016388 /* FeatureSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureSectionCell.swift; sourceTree = "<group>"; };
+		8639D6082943A01E00016388 /* SeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
 		86AC2C2F293DCC48000226C8 /* AppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AC2C32293DCC48000226C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86AC2C34293DCC48000226C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 			children = (
 				86AC2C54293F8967000226C8 /* AppViewController.swift */,
 				86AC2C5729423163000226C8 /* FeatureSectionView.swift */,
+				8639D60629439C6900016388 /* FeatureSectionCell.swift */,
+				8639D6082943A01E00016388 /* SeparatorView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -187,11 +193,13 @@
 			files = (
 				86AC2C4D293DD828000226C8 /* TodayViewController.swift in Sources */,
 				86AC2C51293DDA53000226C8 /* TodayCell.swift in Sources */,
+				8639D6092943A01E00016388 /* SeparatorView.swift in Sources */,
 				86AC2C37293DCC48000226C8 /* TabBarController.swift in Sources */,
 				86AC2C53293DE64C000226C8 /* TodayCollectionViewHeaderView.swift in Sources */,
 				86AC2C55293F8967000226C8 /* AppViewController.swift in Sources */,
 				86AC2C33293DCC48000226C8 /* AppDelegate.swift in Sources */,
 				86AC2C35293DCC48000226C8 /* SceneDelegate.swift in Sources */,
+				8639D60729439C6900016388 /* FeatureSectionCell.swift in Sources */,
 				86AC2C5829423163000226C8 /* FeatureSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
