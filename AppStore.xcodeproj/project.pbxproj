@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86293B712944CF4000E52186 /* RankingFeatureSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86293B702944CF4000E52186 /* RankingFeatureSectionCell.swift */; };
 		8639D60729439C6900016388 /* FeatureSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639D60629439C6900016388 /* FeatureSectionCell.swift */; };
 		8639D6092943A01E00016388 /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639D6082943A01E00016388 /* SeparatorView.swift */; };
 		8639D60B2943A5D800016388 /* RankingFeatureSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639D60A2943A5D800016388 /* RankingFeatureSectionView.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86293B702944CF4000E52186 /* RankingFeatureSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureSectionCell.swift; sourceTree = "<group>"; };
 		8639D60629439C6900016388 /* FeatureSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureSectionCell.swift; sourceTree = "<group>"; };
 		8639D6082943A01E00016388 /* SeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
 		8639D60A2943A5D800016388 /* RankingFeatureSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureSectionView.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				86AC2C5729423163000226C8 /* FeatureSectionView.swift */,
 				8639D60629439C6900016388 /* FeatureSectionCell.swift */,
 				8639D60A2943A5D800016388 /* RankingFeatureSectionView.swift */,
+				86293B702944CF4000E52186 /* RankingFeatureSectionCell.swift */,
 				8639D6082943A01E00016388 /* SeparatorView.swift */,
 			);
 			path = App;
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86AC2C4D293DD828000226C8 /* TodayViewController.swift in Sources */,
+				86293B712944CF4000E52186 /* RankingFeatureSectionCell.swift in Sources */,
 				86AC2C51293DDA53000226C8 /* TodayCell.swift in Sources */,
 				8639D6092943A01E00016388 /* SeparatorView.swift in Sources */,
 				86AC2C37293DCC48000226C8 /* TabBarController.swift in Sources */,
