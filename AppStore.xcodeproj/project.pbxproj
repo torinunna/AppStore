@@ -10,6 +10,9 @@
 		8627E39E2946F6BA0044E36E /* Feature.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8627E39B2946F6BA0044E36E /* Feature.plist */; };
 		8627E39F2946F6BA0044E36E /* Today.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8627E39C2946F6BA0044E36E /* Today.plist */; };
 		8627E3A02946F6BA0044E36E /* RankingFeature.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8627E39D2946F6BA0044E36E /* RankingFeature.plist */; };
+		8627E3A32946F8540044E36E /* Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8627E3A22946F8540044E36E /* Today.swift */; };
+		8627E3A52946F8B30044E36E /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8627E3A42946F8B30044E36E /* Feature.swift */; };
+		8627E3A72946F8EB0044E36E /* RankingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8627E3A62946F8EB0044E36E /* RankingFeature.swift */; };
 		86293B712944CF4000E52186 /* RankingFeatureSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86293B702944CF4000E52186 /* RankingFeatureSectionCell.swift */; };
 		86293B732944D41F00E52186 /* ExchangeCodeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86293B722944D41F00E52186 /* ExchangeCodeButtonView.swift */; };
 		86293B75294605F700E52186 /* AppDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86293B74294605F700E52186 /* AppDetailViewController.swift */; };
@@ -34,6 +37,9 @@
 		8627E39B2946F6BA0044E36E /* Feature.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Feature.plist; sourceTree = "<group>"; };
 		8627E39C2946F6BA0044E36E /* Today.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Today.plist; sourceTree = "<group>"; };
 		8627E39D2946F6BA0044E36E /* RankingFeature.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RankingFeature.plist; sourceTree = "<group>"; };
+		8627E3A22946F8540044E36E /* Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today.swift; sourceTree = "<group>"; };
+		8627E3A42946F8B30044E36E /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		8627E3A62946F8EB0044E36E /* RankingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeature.swift; sourceTree = "<group>"; };
 		86293B702944CF4000E52186 /* RankingFeatureSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureSectionCell.swift; sourceTree = "<group>"; };
 		86293B722944D41F00E52186 /* ExchangeCodeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeCodeButtonView.swift; sourceTree = "<group>"; };
 		86293B74294605F700E52186 /* AppDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +83,16 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		8627E3A82946F9970044E36E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8627E3A22946F8540044E36E /* Today.swift */,
+				8627E3A42946F8B30044E36E /* Feature.swift */,
+				8627E3A62946F8EB0044E36E /* RankingFeature.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		86AC2C26293DCC48000226C8 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +114,7 @@
 			children = (
 				86AC2C32293DCC48000226C8 /* AppDelegate.swift */,
 				86AC2C34293DCC48000226C8 /* SceneDelegate.swift */,
+				8627E3A82946F9970044E36E /* Models */,
 				8627E3A12946F6C00044E36E /* Data */,
 				86AC2C4E293DD840000226C8 /* Scenes */,
 				86AC2C3B293DCC4A000226C8 /* Assets.xcassets */,
@@ -224,8 +241,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				86AC2C4D293DD828000226C8 /* TodayViewController.swift in Sources */,
+				8627E3A32946F8540044E36E /* Today.swift in Sources */,
 				86293B712944CF4000E52186 /* RankingFeatureSectionCell.swift in Sources */,
 				86293B732944D41F00E52186 /* ExchangeCodeButtonView.swift in Sources */,
+				8627E3A72946F8EB0044E36E /* RankingFeature.swift in Sources */,
+				8627E3A52946F8B30044E36E /* Feature.swift in Sources */,
 				86AC2C51293DDA53000226C8 /* TodayCell.swift in Sources */,
 				8639D6092943A01E00016388 /* SeparatorView.swift in Sources */,
 				86AC2C37293DCC48000226C8 /* TabBarController.swift in Sources */,
