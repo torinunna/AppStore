@@ -4,6 +4,8 @@
 //
 //  Created by YUJIN KWON on 2022/12/10.
 //
+
+import Kingfisher
 import SnapKit
 import UIKit
 
@@ -39,13 +41,16 @@ final class FeatureSectionCell: UICollectionViewCell {
         return imageView
     }()
     
-    func setUp() {
+    func setUp(feature: Feature) {
         setUpLayout()
         
-        typeLabel.text = "type"
-        appNameLabel.text = "AppName"
-        descriptionLabel.text = "description"
-        imageView.backgroundColor = .lightGray
+        typeLabel.text = feature.type
+        appNameLabel.text = feature.appName
+        descriptionLabel.text = feature.description
+        
+        if let imageURL = URL(string: feature.imageURL) {
+            imageView.kf.setImage(with: imageURL)
+        }
     }
 }
 
