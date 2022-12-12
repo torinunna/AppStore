@@ -4,6 +4,8 @@
 //
 //  Created by YUJIN KWON on 2022/12/05.
 //
+
+import Kingfisher
 import SnapKit
 import UIKit
 
@@ -39,16 +41,19 @@ final class TodayCell: UICollectionViewCell {
         return imageView
     }()
     
-    func setUp() {
+    func setUp(today: Today) {
         setUpSubViews()
         
         layer.shadowColor = UIColor.black.cgColor
         layer.shadowOpacity = 0.3
         layer.shadowRadius = 10
         
-        subTitleLabel.text = "서브타이틀"
-        titleLabel.text = "앱 이름"
-        descriptionLabel.text = "앱 설명"
+        subTitleLabel.text = today.description
+        titleLabel.text = today.title
+        descriptionLabel.text = today.description
+        if let imageUrl = URL(string: today.imageURL) {
+            imageView.kf.setImage(with: imageUrl)
+        }
     }
 }
 
