@@ -7,7 +7,7 @@
 		<string>민족의배달</string>
 		<key>description</key>
 		<string>오늘은 치킨 어때요?</string>
-		<key>isInPurchaseApp</key>
+		<key>isInAppPurchasing</key>
 		<false/>
 	</dict>
 	<dict>
@@ -15,7 +15,7 @@
 		<string>오이마켓</string>
 		<key>description</key>
 		<string>집에서 잠자고 있는 물건들을 꺼내볼까요?</string>
-		<key>isInPurchaseApp</key>
+		<key>isInAppPurchasing</key>
 		<true/>
 	</dict>
 	<dict>
@@ -23,7 +23,7 @@
 		<string>Stagram</string>
 		<key>description</key>
 		<string>사진을 공유해봅시다</string>
-		<key>isInPurchaseApp</key>
+		<key>isInAppPurchasing</key>
 		<false/>
 	</dict>
 	<dict>
@@ -31,7 +31,7 @@
 		<string>재그지그</string>
 		<key>description</key>
 		<string>내일 입을 옷 더이상 걱정하지 말아요.</string>
-		<key>isInPurchaseApp</key>
+		<key>isInAppPurchasing</key>
 		<false/>
 	</dict>
 	<dict>
@@ -39,7 +39,7 @@
 		<string>LinkedOut</string>
 		<key>description</key>
 		<string>캐리어를 꿈꿔요.</string>
-		<key>isInPurchaseApp</key>
+		<key>isInAppPurchasing</key>
 		<true/>
 	</dict>
 	<dict>
@@ -47,7 +47,7 @@
 		<string>BaseBook</string>
 		<key>description</key>
 		<string>고등학교 동창들의 이야기 궁금하지 않나요?</string>
-		<key>isInPurchaseApp</key>
+		<key>isInAppPurchasing</key>
 		<false/>
 	</dict>
 	<dict>
@@ -55,7 +55,7 @@
 		<string>ChocoTalk</string>
 		<key>description</key>
 		<string>커뮤니케이션 필수 앱.</string>
-		<key>isInPurchaseApp</key>
+		<key>isInAppPurchasing</key>
 		<false/>
 	</dict>
 	<dict>
@@ -63,7 +63,7 @@
 		<string>Slow Campus</string>
 		<key>description</key>
 		<string>누구보다 멋진 개발자가 되어보아요.</string>
-		<key>isInPurchaseApp</key>
+		<key>isInAppPurchasing</key>
 		<true/>
 	</dict>
 	<dict>
@@ -71,7 +71,7 @@
 		<string>FastCampus</string>
 		<key>description</key>
 		<string>멋진 개발자가 되어보아요.</string>
-		<key>isInPurchaseApp</key>
+		<key>isInAppPurchasing</key>
 		<true/>
 	</dict>
 </array>
