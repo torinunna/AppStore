@@ -22,7 +22,7 @@ final class AppDetailViewController: UIViewController {
     
     private let titleLabel: UILabel = {
         let label = UILabel()
-        label.font = .systemFont(ofSize: 14.0, weight: .bold)
+        label.font = .systemFont(ofSize: 20.0, weight: .bold)
         label.textColor = .label
         return label
     }()
@@ -98,7 +98,7 @@ private extension AppDetailViewController {
             $0.bottom.equalTo(appIconImageView.snp.bottom)
             $0.height.equalTo(24.0)
             $0.leading.equalTo(titleLabel.snp.leading)
-            $0.height.equalTo(60.0)
+            $0.width.equalTo(60.0)
         }
         
         shareButton.snp.makeConstraints {
